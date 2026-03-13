@@ -64,6 +64,12 @@
     <Compile Include="FormProfissionais.Designer.cs">
       <DependentUpon>FormProfissionais.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormProfissionalCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfissionalCargo.Designer.cs">
+      <DependentUpon>FormProfissionalCargo.cs</DependentUpon>
+    </Compile>
     <Compile Include="formusuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfissionais.resx">
       <DependentUpon>FormProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfissionalCargo.resx">
+      <DependentUpon>FormProfissionalCargo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formusuario.resx">
       <DependentUpon>formusuario.cs</DependentUpon>
