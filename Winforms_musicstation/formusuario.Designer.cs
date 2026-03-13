@@ -82,6 +82,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Voltar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtNome
             // 
@@ -218,7 +219,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(42, 268);
+            this.textBox4.Location = new System.Drawing.Point(38, 287);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(40, 31);
             this.textBox4.TabIndex = 43;
@@ -228,7 +229,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Uighur", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(39, 227);
+            this.label6.Location = new System.Drawing.Point(39, 246);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 38);
             this.label6.TabIndex = 44;

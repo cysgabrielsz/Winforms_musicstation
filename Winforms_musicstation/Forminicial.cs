@@ -27,7 +27,7 @@ namespace Winforms_musicstation
 
         private void cargosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            formsCargos formsCargos = new formsCargos();   
+            FormCargos formsCargos = new FormCargos();   
             formsCargos.Show();
             this.Hide();
         }

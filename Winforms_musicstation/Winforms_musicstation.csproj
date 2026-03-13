@@ -66,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCargos.resx">
+      <DependentUpon>FormCargos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forminicial.resx">
       <DependentUpon>Forminicial.cs</DependentUpon>
     </EmbeddedResource>

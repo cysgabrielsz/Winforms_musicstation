@@ -37,5 +37,13 @@ namespace Winforms_musicstation
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e) //voltar para tela inicial
+        {
+            Forminicial telaInicial = new Forminicial();
+            telaInicial.Show();
+            this.Close();
+        }
     }
+
 }
