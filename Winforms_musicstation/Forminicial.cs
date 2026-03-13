@@ -31,6 +31,13 @@ namespace Winforms_musicstation
             formsCargos.Show();
             this.Hide();
         }
+
+        private void profissionaisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormProfissionais formsprofissional = new FormProfissionais(); 
+            formsprofissional.Show();
+            this.Hide();
+        }
     }
 }
 

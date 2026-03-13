@@ -120,6 +120,7 @@
             this.profissionaisToolStripMenuItem.Name = "profissionaisToolStripMenuItem";
             this.profissionaisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.profissionaisToolStripMenuItem.Text = "Profissionais";
+            this.profissionaisToolStripMenuItem.Click += new System.EventHandler(this.profissionaisToolStripMenuItem_Click);
             // 
             // profissionalCargoToolStripMenuItem
             // 
