@@ -58,6 +58,12 @@
     <Compile Include="Forminicial.Designer.cs">
       <DependentUpon>Forminicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="formlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlogin.Designer.cs">
+      <DependentUpon>formlogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProfissionais.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forminicial.resx">
       <DependentUpon>Forminicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlogin.resx">
+      <DependentUpon>formlogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfissionais.resx">
       <DependentUpon>FormProfissionais.cs</DependentUpon>

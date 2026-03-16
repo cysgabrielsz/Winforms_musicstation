@@ -74,6 +74,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pESSOASToolStripMenuItem,
             this.cATALOGOToolStripMenuItem,
@@ -124,6 +125,7 @@
             // 
             // profissionalCargoToolStripMenuItem
             // 
+            this.profissionalCargoToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profissionalCargoToolStripMenuItem.Name = "profissionalCargoToolStripMenuItem";
             this.profissionalCargoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.profissionalCargoToolStripMenuItem.Text = "Profissional cargo";
