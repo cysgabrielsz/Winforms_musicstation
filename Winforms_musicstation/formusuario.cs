@@ -44,6 +44,8 @@ namespace Winforms_musicstation
             telaInicial.Show();
             this.Close();
         }
+
+
     }
 
 }

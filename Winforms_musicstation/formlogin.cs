@@ -29,9 +29,7 @@ namespace Winforms_musicstation
             string senha = txtSenha.Text;
 
             if (usuario == "admin" && senha == "123")
-            {
-                MessageBox.Show("Login realizado com sucesso!");
-
+            {                
                 Forminicial telaPrincipal = new Forminicial();
                 telaPrincipal.Show();
 

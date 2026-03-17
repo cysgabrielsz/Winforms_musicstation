@@ -32,7 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnCadastrar = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,21 +67,25 @@
             this.txtSenha.TabIndex = 59;
             this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btnLogin
+            // btnCadastrar
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Indigo;
-            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
-            this.btnLogin.FlatAppearance.BorderSize = 0;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLogin.Location = new System.Drawing.Point(322, 341);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(96, 33);
-            this.btnLogin.TabIndex = 60;
-            this.btnLogin.Text = "Entrar";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnCadastrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.BorderColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.BorderRadius = 10;
+            this.btnCadastrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCadastrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCadastrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCadastrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCadastrar.FillColor = System.Drawing.Color.Indigo;
+            this.btnCadastrar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.ForeColor = System.Drawing.Color.White;
+            this.btnCadastrar.Location = new System.Drawing.Point(316, 330);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.PressedColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.Size = new System.Drawing.Size(110, 33);
+            this.btnCadastrar.TabIndex = 62;
+            this.btnCadastrar.Text = "ENTRAR";
+            this.btnCadastrar.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // formlogin
             // 
@@ -89,7 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.pictureBox1);
@@ -107,6 +111,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.Button btnLogin;
+        private Guna.UI2.WinForms.Guna2Button btnCadastrar;
     }
 }

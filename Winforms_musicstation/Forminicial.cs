@@ -45,6 +45,20 @@ namespace Winforms_musicstation
             formProfissionalCargo.Show();
             this.Hide();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formclientes formclientes = new formclientes();
+            formclientes.Show();
+            this.Hide();
+        }
+
+        private void adminstradoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formadmin formadmin = new formadmin(); 
+            formadmin.Show();
+            this.Hide();
+        }
     }
 }
 

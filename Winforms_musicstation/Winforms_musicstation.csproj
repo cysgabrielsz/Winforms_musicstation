@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formadmin.Designer.cs">
+      <DependentUpon>formadmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCargos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCargos.Designer.cs">
       <DependentUpon>FormCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formclientes.Designer.cs">
+      <DependentUpon>formclientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Forminicial.cs">
       <SubType>Form</SubType>
@@ -84,8 +102,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formadmin.resx">
+      <DependentUpon>formadmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCargos.resx">
       <DependentUpon>FormCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formclientes.resx">
+      <DependentUpon>formclientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forminicial.resx">
       <DependentUpon>Forminicial.cs</DependentUpon>
@@ -110,7 +134,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
