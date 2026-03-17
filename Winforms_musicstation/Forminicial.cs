@@ -59,6 +59,7 @@ namespace Winforms_musicstation
             formadmin.Show();
             this.Hide();
         }
+        
     }
 }
 

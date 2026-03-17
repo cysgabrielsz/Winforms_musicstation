@@ -29,19 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formadmin));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ColunaID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coluna1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColunaEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColunaSenha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColunaData = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnCadastrar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -57,6 +52,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.iyurfkf7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ColunaID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coluna1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaSenha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColunaData = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
@@ -117,14 +117,14 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkSlateBlue;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColunaID,
@@ -132,53 +132,28 @@
             this.ColunaEmail,
             this.ColunaSenha,
             this.ColunaData});
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.GridColor = System.Drawing.Color.DarkGray;
             this.dataGridView1.Location = new System.Drawing.Point(85, 259);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(641, 179);
             this.dataGridView1.TabIndex = 70;
-            // 
-            // ColunaID
-            // 
-            this.ColunaID.HeaderText = "ID";
-            this.ColunaID.Name = "ColunaID";
-            // 
-            // coluna1
-            // 
-            this.coluna1.HeaderText = "Nome";
-            this.coluna1.Name = "coluna1";
-            // 
-            // ColunaEmail
-            // 
-            this.ColunaEmail.HeaderText = "Email";
-            this.ColunaEmail.Name = "ColunaEmail";
-            // 
-            // ColunaSenha
-            // 
-            this.ColunaSenha.HeaderText = "Senha";
-            this.ColunaSenha.Name = "ColunaSenha";
-            // 
-            // ColunaData
-            // 
-            this.ColunaData.HeaderText = "Data Cadastro";
-            this.ColunaData.Name = "ColunaData";
             // 
             // btnCadastrar
             // 
@@ -365,6 +340,31 @@
             this.iyurfkf7ToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.iyurfkf7ToolStripMenuItem.Text = "iyurfkf7";
             // 
+            // ColunaID
+            // 
+            this.ColunaID.HeaderText = "ID_Admin";
+            this.ColunaID.Name = "ColunaID";
+            // 
+            // coluna1
+            // 
+            this.coluna1.HeaderText = "ID_Usuario";
+            this.coluna1.Name = "coluna1";
+            // 
+            // ColunaEmail
+            // 
+            this.ColunaEmail.HeaderText = "Nivel acesso";
+            this.ColunaEmail.Name = "ColunaEmail";
+            // 
+            // ColunaSenha
+            // 
+            this.ColunaSenha.HeaderText = "Data Criação";
+            this.ColunaSenha.Name = "ColunaSenha";
+            // 
+            // ColunaData
+            // 
+            this.ColunaData.HeaderText = "Obs";
+            this.ColunaData.Name = "ColunaData";
+            // 
             // formadmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -406,11 +406,6 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coluna1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaEmail;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaSenha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaData;
         private Guna.UI2.WinForms.Guna2Button btnCadastrar;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
@@ -426,5 +421,10 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem iyurfkf7ToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coluna1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaEmail;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaSenha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaData;
     }
 }
