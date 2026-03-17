@@ -104,21 +104,21 @@
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
             this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
             // cargosToolStripMenuItem
             // 
             this.cargosToolStripMenuItem.Name = "cargosToolStripMenuItem";
-            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cargosToolStripMenuItem.Text = "Cargos";
             this.cargosToolStripMenuItem.Click += new System.EventHandler(this.cargosToolStripMenuItem_Click);
             // 
             // profissionaisToolStripMenuItem
             // 
             this.profissionaisToolStripMenuItem.Name = "profissionaisToolStripMenuItem";
-            this.profissionaisToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.profissionaisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.profissionaisToolStripMenuItem.Text = "Profissionais";
             this.profissionaisToolStripMenuItem.Click += new System.EventHandler(this.profissionaisToolStripMenuItem_Click);
             // 
@@ -126,28 +126,28 @@
             // 
             this.profissionalCargoToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.profissionalCargoToolStripMenuItem.Name = "profissionalCargoToolStripMenuItem";
-            this.profissionalCargoToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.profissionalCargoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.profissionalCargoToolStripMenuItem.Text = "Profissional cargo";
             this.profissionalCargoToolStripMenuItem.Click += new System.EventHandler(this.profissionalCargoToolStripMenuItem_Click);
             // 
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // adminstradoresToolStripMenuItem
             // 
             this.adminstradoresToolStripMenuItem.Name = "adminstradoresToolStripMenuItem";
-            this.adminstradoresToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.adminstradoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.adminstradoresToolStripMenuItem.Text = "Adminstradores";
             this.adminstradoresToolStripMenuItem.Click += new System.EventHandler(this.adminstradoresToolStripMenuItem_Click);
             // 
             // empresaToolStripMenuItem
             // 
             this.empresaToolStripMenuItem.Name = "empresaToolStripMenuItem";
-            this.empresaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.empresaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.empresaToolStripMenuItem.Text = "Empresa";
             // 
             // cATALOGOToolStripMenuItem
@@ -162,13 +162,13 @@
             // instrumentosToolStripMenuItem
             // 
             this.instrumentosToolStripMenuItem.Name = "instrumentosToolStripMenuItem";
-            this.instrumentosToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.instrumentosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.instrumentosToolStripMenuItem.Text = "Instrumentos";
             // 
             // serviçosToolStripMenuItem
             // 
             this.serviçosToolStripMenuItem.Name = "serviçosToolStripMenuItem";
-            this.serviçosToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.serviçosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.serviçosToolStripMenuItem.Text = "Serviços";
             // 
             // oPERACIONALToolStripMenuItem

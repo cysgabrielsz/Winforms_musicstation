@@ -1,9 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36908.2 d17.14
+VisualStudioVersion = 17.14.36908.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winforms_musicstation", "Winforms_musicstation\Winforms_musicstation.csproj", "{D1EF29A3-38B6-48F0-947A-4BADC6B947D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Winforms_musicstation\formadmin.cs = Winforms_musicstation\formadmin.cs
+		Winforms_musicstation\formadmin.Designer.cs = Winforms_musicstation\formadmin.Designer.cs
+		Winforms_musicstation\formadmin.resx = Winforms_musicstation\formadmin.resx
+		Winforms_musicstation\FormCargos.cs = Winforms_musicstation\FormCargos.cs
+		Winforms_musicstation\FormCargos.Designer.cs = Winforms_musicstation\FormCargos.Designer.cs
+		Winforms_musicstation\FormCargos.resx = Winforms_musicstation\FormCargos.resx
+		Winforms_musicstation\formclientes.cs = Winforms_musicstation\formclientes.cs
+		Winforms_musicstation\formclientes.Designer.cs = Winforms_musicstation\formclientes.Designer.cs
+		Winforms_musicstation\formclientes.resx = Winforms_musicstation\formclientes.resx
+		Winforms_musicstation\formEmpresa.cs = Winforms_musicstation\formEmpresa.cs
+		Winforms_musicstation\formEmpresa.Designer.cs = Winforms_musicstation\formEmpresa.Designer.cs
+		Winforms_musicstation\formEmpresa.resx = Winforms_musicstation\formEmpresa.resx
+		Winforms_musicstation\FormProfissionais.cs = Winforms_musicstation\FormProfissionais.cs
+		Winforms_musicstation\FormProfissionais.Designer.cs = Winforms_musicstation\FormProfissionais.Designer.cs
+		Winforms_musicstation\FormProfissionais.resx = Winforms_musicstation\FormProfissionais.resx
+		Winforms_musicstation\FormProfissionalCargo.cs = Winforms_musicstation\FormProfissionalCargo.cs
+		Winforms_musicstation\FormProfissionalCargo.Designer.cs = Winforms_musicstation\FormProfissionalCargo.Designer.cs
+		Winforms_musicstation\FormProfissionalCargo.resx = Winforms_musicstation\FormProfissionalCargo.resx
+		Winforms_musicstation\formusuario.cs = Winforms_musicstation\formusuario.cs
+		Winforms_musicstation\formusuario.Designer.cs = Winforms_musicstation\formusuario.Designer.cs
+		Winforms_musicstation\formusuario.resx = Winforms_musicstation\formusuario.resx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
