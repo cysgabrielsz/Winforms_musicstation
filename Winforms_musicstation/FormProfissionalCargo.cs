@@ -23,5 +23,6 @@ namespace Winforms_musicstation
             telainicial.Show();
             this.Close();
         }
+
     }
 }

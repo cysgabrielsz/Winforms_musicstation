@@ -82,6 +82,12 @@
     <Compile Include="Forminicial.Designer.cs">
       <DependentUpon>Forminicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="forminstrumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forminstrumentos.Designer.cs">
+      <DependentUpon>forminstrumentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="formlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,12 @@
     </Compile>
     <Compile Include="FormProfissionalCargo.Designer.cs">
       <DependentUpon>FormProfissionalCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formServiço.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formServiço.Designer.cs">
+      <DependentUpon>formServiço.cs</DependentUpon>
     </Compile>
     <Compile Include="formusuario.cs">
       <SubType>Form</SubType>
@@ -123,6 +135,9 @@
     <EmbeddedResource Include="Forminicial.resx">
       <DependentUpon>Forminicial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forminstrumentos.resx">
+      <DependentUpon>forminstrumentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formlogin.resx">
       <DependentUpon>formlogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfissionalCargo.resx">
       <DependentUpon>FormProfissionalCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formServiço.resx">
+      <DependentUpon>formServiço.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formusuario.resx">
       <DependentUpon>formusuario.cs</DependentUpon>

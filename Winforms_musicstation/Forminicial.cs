@@ -59,7 +59,27 @@ namespace Winforms_musicstation
             formadmin.Show();
             this.Hide();
         }
-        
+
+        private void empresaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formEmpresa formEmpresa = new formEmpresa();
+            formEmpresa.Show();
+            this.Hide();
+        }
+
+        private void instrumentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            forminstrumentos forminstrumentos = new forminstrumentos();
+            forminstrumentos.Show();
+            this.Hide();
+        }
+
+        private void serviçosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formServiço formServiço = new formServiço();
+            formServiço.Show();
+            this.Hide();
+        }
     }
 }
 
