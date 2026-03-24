@@ -58,11 +58,23 @@
     <Compile Include="formadmin.Designer.cs">
       <DependentUpon>formadmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="formAvaliações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAvaliações.Designer.cs">
+      <DependentUpon>formAvaliações.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCargos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCargos.Designer.cs">
       <DependentUpon>FormCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formChats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formChats.Designer.cs">
+      <DependentUpon>formChats.cs</DependentUpon>
     </Compile>
     <Compile Include="formclientes.cs">
       <SubType>Form</SubType>
@@ -70,11 +82,23 @@
     <Compile Include="formclientes.Designer.cs">
       <DependentUpon>formclientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="formdetalheavaliacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formdetalheavaliacao.Designer.cs">
+      <DependentUpon>formdetalheavaliacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="formEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formEmpresa.Designer.cs">
       <DependentUpon>formEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formFormaspagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formFormaspagamentos.Designer.cs">
+      <DependentUpon>formFormaspagamentos.cs</DependentUpon>
     </Compile>
     <Compile Include="Forminicial.cs">
       <SubType>Form</SubType>
@@ -105,6 +129,18 @@
     </Compile>
     <Compile Include="formlogin.Designer.cs">
       <DependentUpon>formlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMensagens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMensagens.Designer.cs">
+      <DependentUpon>formMensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formNotificacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formNotificacoes.Designer.cs">
+      <DependentUpon>formNotificacoes.cs</DependentUpon>
     </Compile>
     <Compile Include="formPagamentos.cs">
       <SubType>Form</SubType>
@@ -142,6 +178,12 @@
     <Compile Include="formServiço.Designer.cs">
       <DependentUpon>formServiço.cs</DependentUpon>
     </Compile>
+    <Compile Include="formTransacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTransacoes.Designer.cs">
+      <DependentUpon>formTransacoes.cs</DependentUpon>
+    </Compile>
     <Compile Include="formusuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,14 +195,26 @@
     <EmbeddedResource Include="formadmin.resx">
       <DependentUpon>formadmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formAvaliações.resx">
+      <DependentUpon>formAvaliações.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCargos.resx">
       <DependentUpon>FormCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formChats.resx">
+      <DependentUpon>formChats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formclientes.resx">
       <DependentUpon>formclientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formdetalheavaliacao.resx">
+      <DependentUpon>formdetalheavaliacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formEmpresa.resx">
       <DependentUpon>formEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formFormaspagamentos.resx">
+      <DependentUpon>formFormaspagamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forminicial.resx">
       <DependentUpon>Forminicial.cs</DependentUpon>
@@ -176,6 +230,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formlogin.resx">
       <DependentUpon>formlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMensagens.resx">
+      <DependentUpon>formMensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formNotificacoes.resx">
+      <DependentUpon>formNotificacoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formPagamentos.resx">
       <DependentUpon>formPagamentos.cs</DependentUpon>
@@ -194,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formServiço.resx">
       <DependentUpon>formServiço.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTransacoes.resx">
+      <DependentUpon>formTransacoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formusuario.resx">
       <DependentUpon>formusuario.cs</DependentUpon>

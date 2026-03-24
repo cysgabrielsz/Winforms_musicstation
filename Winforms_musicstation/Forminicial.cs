@@ -115,6 +115,48 @@ namespace Winforms_musicstation
             formPagamentos.Show();
             this.Hide();
         }
+
+        private void tansacoesPagamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formTransacoes pagamentos = new formTransacoes();
+            pagamentos.Show();
+            this.Hide();
+        }
+
+        private void formasPagamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formFormaspagamentos formFormaspagamentos = new formFormaspagamentos();
+            formFormaspagamentos.Show();   
+            this.Hide();
+        }
+
+        private void chatsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formChats formChats = new formChats();
+            formChats.Show();
+            this.Hide();
+        }
+
+        private void mensagensToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            formMensagens formMensagens = new formMensagens();
+            formMensagens.Show();
+            this.Hide();
+        }
+
+        private void notificacoesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formNotificacoes formNotificacoes = new formNotificacoes();
+            formNotificacoes.Show();
+            this.Hide();
+        }
+
+        private void avaliacoesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formAvaliações formAvaliações = new formAvaliações();
+            formAvaliações.Show();
+            this.Hide();
+        }
     }
 }
 

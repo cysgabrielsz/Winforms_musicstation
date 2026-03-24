@@ -1,6 +1,6 @@
 ﻿namespace Winforms_musicstation
 {
-    partial class formServicosPedidos
+    partial class formChats
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formChats));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formServicosPedidos));
-            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -56,56 +57,64 @@
             this.ColunaEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.coluna1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColunaSenha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColunaData = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(220, 5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(334, 63);
-            this.label1.TabIndex = 70;
-            this.label1.Text = "SERVIÇOS PEDIDOS";
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(801, 68);
+            this.pictureBox1.TabIndex = 69;
+            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(27, 24);
+            this.button1.Location = new System.Drawing.Point(12, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 28);
-            this.button1.TabIndex = 71;
+            this.button1.TabIndex = 70;
             this.button1.Text = "VOLTAR";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(625, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(144, 68);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 85;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(180)))), ((int)(((byte)(34)))));
+            this.label1.Location = new System.Drawing.Point(324, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(139, 63);
+            this.label1.TabIndex = 86;
+            this.label1.Text = "CHATS";
+            // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBox7);
             this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.textBox4);
@@ -124,35 +133,25 @@
             this.panel1.Size = new System.Drawing.Size(776, 252);
             this.panel1.TabIndex = 91;
             // 
-            // textBox6
+            // textBox5
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox6.Location = new System.Drawing.Point(528, 81);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(226, 22);
-            this.textBox6.TabIndex = 104;
-            this.textBox6.Text = "Pesquise por Serviços pedidos..";
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(114, 145);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(34, 26);
+            this.textBox5.TabIndex = 107;
             // 
-            // textBox3
+            // label2
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(18, 200);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(297, 26);
-            this.textBox3.TabIndex = 78;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
-            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(13, 171);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 26);
-            this.label5.TabIndex = 79;
-            this.label5.Text = "Observação";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(109, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 26);
+            this.label2.TabIndex = 106;
+            this.label2.Text = "ID_Usuario2";
             // 
             // button3
             // 
@@ -181,7 +180,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(18, 142);
+            this.textBox4.Location = new System.Drawing.Point(18, 203);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(155, 26);
             this.textBox4.TabIndex = 81;
@@ -192,11 +191,11 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(11, 54);
+            this.label3.Location = new System.Drawing.Point(13, 55);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 26);
+            this.label3.Size = new System.Drawing.Size(59, 26);
             this.label3.TabIndex = 74;
-            this.label3.Text = "ID_Item";
+            this.label3.Text = "ID_chat";
             // 
             // label6
             // 
@@ -204,16 +203,16 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(13, 113);
+            this.label6.Location = new System.Drawing.Point(13, 174);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 26);
             this.label6.TabIndex = 80;
-            this.label6.Text = "Valor serviço";
+            this.label6.Text = "Data Criação";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(18, 83);
+            this.textBox1.Location = new System.Drawing.Point(18, 84);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(34, 26);
             this.textBox1.TabIndex = 76;
@@ -233,7 +232,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(108, 83);
+            this.textBox2.Location = new System.Drawing.Point(18, 145);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(34, 26);
             this.textBox2.TabIndex = 77;
@@ -256,11 +255,11 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(103, 54);
+            this.label4.Location = new System.Drawing.Point(16, 116);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 26);
+            this.label4.Size = new System.Drawing.Size(85, 26);
             this.label4.TabIndex = 75;
-            this.label4.Text = "ID_Pedido";
+            this.label4.Text = "ID_Usuario1";
             // 
             // label8
             // 
@@ -270,9 +269,9 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(12, 13);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(198, 32);
+            this.label8.Size = new System.Drawing.Size(127, 32);
             this.label8.TabIndex = 91;
-            this.label8.Text = "Dados dos Serviços pedidos";
+            this.label8.Text = "Dados dos Chats";
             // 
             // pictureBox2
             // 
@@ -313,9 +312,7 @@
             this.ColunaID,
             this.ColunaEmail,
             this.coluna1,
-            this.ColunaSenha,
-            this.ColunaData,
-            this.Column1});
+            this.ColunaSenha});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -325,7 +322,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.GridColor = System.Drawing.Color.DarkGray;
-            this.dataGridView1.Location = new System.Drawing.Point(79, 319);
+            this.dataGridView1.Location = new System.Drawing.Point(76, 332);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -336,101 +333,30 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(641, 119);
-            this.dataGridView1.TabIndex = 105;
+            this.dataGridView1.Size = new System.Drawing.Size(641, 106);
+            this.dataGridView1.TabIndex = 106;
             // 
             // ColunaID
             // 
-            this.ColunaID.HeaderText = "ID_Instrumento";
+            this.ColunaID.HeaderText = "ID_Chats";
             this.ColunaID.Name = "ColunaID";
             // 
             // ColunaEmail
             // 
-            this.ColunaEmail.HeaderText = "ID_Empresa";
+            this.ColunaEmail.HeaderText = "ID_Usuarios1";
             this.ColunaEmail.Name = "ColunaEmail";
             // 
             // coluna1
             // 
-            this.coluna1.HeaderText = "Nome";
+            this.coluna1.HeaderText = "ID_Usuarios2";
             this.coluna1.Name = "coluna1";
             // 
             // ColunaSenha
             // 
-            this.ColunaSenha.HeaderText = "Preço locação";
+            this.ColunaSenha.HeaderText = "Data Criação";
             this.ColunaSenha.Name = "ColunaSenha";
             // 
-            // ColunaData
-            // 
-            this.ColunaData.HeaderText = "Email";
-            this.ColunaData.Name = "ColunaData";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Disponivel";
-            this.Column1.Name = "Column1";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(644, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(144, 68);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 85;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(801, 68);
-            this.pictureBox1.TabIndex = 69;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
-            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(202, 54);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 26);
-            this.label2.TabIndex = 106;
-            this.label2.Text = "ID_Servico";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(207, 83);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(34, 26);
-            this.textBox5.TabIndex = 107;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(311, 83);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(34, 26);
-            this.textBox7.TabIndex = 108;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
-            this.label7.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(306, 54);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 26);
-            this.label7.TabIndex = 109;
-            this.label7.Text = "ID_Profissional";
-            // 
-            // formServicosPedidos
+            // formChats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -438,19 +364,19 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "formServicosPedidos";
-            this.Text = "formServicosPedidos";
+            this.Name = "formChats";
+            this.Text = "formChats";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -459,13 +385,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox4;
@@ -479,16 +402,12 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColunaID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColunaEmail;
         private System.Windows.Forms.DataGridViewTextBoxColumn coluna1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColunaSenha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColunaData;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label2;
     }
 }
