@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
 namespace Winforms_musicstation
 {
@@ -32,7 +33,7 @@ namespace Winforms_musicstation
 
                 while (reader.Read())//percorre os resultados retornandos pela consulta
                 {
-                    dataGridView1.Rows.Add(reader["Nome"].ToString(),  " | " + "R$" + reader["Preco"].ToString(),  " | " + reader["Quantidade"].ToString());
+                    dataGridView1.Rows.Add(reader["Nome"].ToString(), " | " + "R$" + reader["Preco"].ToString(), " | " + reader["Quantidade"].ToString());
                 }
             }
 
@@ -45,7 +46,13 @@ namespace Winforms_musicstation
             this.Close();
         }
 
+        private void S(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
+
 
 }

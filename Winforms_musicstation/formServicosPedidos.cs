@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Winforms_musicstation
 {
-    public partial class formServiço : Form
+    public partial class formServicosPedidos : Form
     {
-        public formServiço()
+        public formServicosPedidos()
         {
             InitializeComponent();
         }
@@ -23,7 +23,5 @@ namespace Winforms_musicstation
             telainicial.Show();
             this.Close();
         }
-
-
     }
 }

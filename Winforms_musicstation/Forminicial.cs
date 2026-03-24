@@ -80,6 +80,41 @@ namespace Winforms_musicstation
             formServiço.Show();
             this.Hide();
         }
+
+        private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formPedidos formPedidos = new formPedidos();
+            formPedidos.Show();
+            this.Hide();
+        }
+
+        private void servicosPedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formServicosPedidos formServicosPedidos = new formServicosPedidos();
+            formServicosPedidos.Show();
+            this.Hide();
+        }
+
+        private void locacoesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formLocacoes formLocacoes = new formLocacoes();
+            formLocacoes.Show();
+            this.Hide();
+        }
+
+        private void locacoesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            formLocacoesitens formLocacoes = new formLocacoesitens();
+            formLocacoes.Show();
+            this.Hide();
+        }
+
+        private void pToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formPagamentos formPagamentos = new formPagamentos();
+            formPagamentos.Show();
+            this.Hide();
+        }
     }
 }
 

@@ -161,14 +161,14 @@
             // instrumentosToolStripMenuItem
             // 
             this.instrumentosToolStripMenuItem.Name = "instrumentosToolStripMenuItem";
-            this.instrumentosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.instrumentosToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.instrumentosToolStripMenuItem.Text = "Instrumentos";
             this.instrumentosToolStripMenuItem.Click += new System.EventHandler(this.instrumentosToolStripMenuItem_Click);
             // 
             // serviçosToolStripMenuItem
             // 
             this.serviçosToolStripMenuItem.Name = "serviçosToolStripMenuItem";
-            this.serviçosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.serviçosToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.serviçosToolStripMenuItem.Text = "Serviços";
             this.serviçosToolStripMenuItem.Click += new System.EventHandler(this.serviçosToolStripMenuItem_Click);
             // 
@@ -186,26 +186,30 @@
             // pedidosToolStripMenuItem
             // 
             this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pedidosToolStripMenuItem.Text = "Pedidos";
+            this.pedidosToolStripMenuItem.Click += new System.EventHandler(this.pedidosToolStripMenuItem_Click);
             // 
             // servicosPedidosToolStripMenuItem
             // 
             this.servicosPedidosToolStripMenuItem.Name = "servicosPedidosToolStripMenuItem";
-            this.servicosPedidosToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.servicosPedidosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.servicosPedidosToolStripMenuItem.Text = "Servicos pedidos";
+            this.servicosPedidosToolStripMenuItem.Click += new System.EventHandler(this.servicosPedidosToolStripMenuItem_Click);
             // 
             // locacoesToolStripMenuItem
             // 
             this.locacoesToolStripMenuItem.Name = "locacoesToolStripMenuItem";
-            this.locacoesToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.locacoesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.locacoesToolStripMenuItem.Text = "Locacoes ";
+            this.locacoesToolStripMenuItem.Click += new System.EventHandler(this.locacoesToolStripMenuItem_Click);
             // 
             // locacoesToolStripMenuItem1
             // 
             this.locacoesToolStripMenuItem1.Name = "locacoesToolStripMenuItem1";
-            this.locacoesToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
+            this.locacoesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.locacoesToolStripMenuItem1.Text = "Locacoes itens";
+            this.locacoesToolStripMenuItem1.Click += new System.EventHandler(this.locacoesToolStripMenuItem1_Click);
             // 
             // fINANCEIROToolStripMenuItem
             // 
@@ -222,6 +226,7 @@
             this.pToolStripMenuItem.Name = "pToolStripMenuItem";
             this.pToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.pToolStripMenuItem.Text = "Pagamentos";
+            this.pToolStripMenuItem.Click += new System.EventHandler(this.pToolStripMenuItem_Click);
             // 
             // tansacoesPagamentosToolStripMenuItem
             // 

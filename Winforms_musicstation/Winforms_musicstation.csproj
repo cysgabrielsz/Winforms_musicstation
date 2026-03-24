@@ -88,11 +88,35 @@
     <Compile Include="forminstrumentos.Designer.cs">
       <DependentUpon>forminstrumentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="formLocacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLocacoes.Designer.cs">
+      <DependentUpon>formLocacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLocacoesitens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLocacoesitens.Designer.cs">
+      <DependentUpon>formLocacoesitens.cs</DependentUpon>
+    </Compile>
     <Compile Include="formlogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formlogin.Designer.cs">
       <DependentUpon>formlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPagamentos.Designer.cs">
+      <DependentUpon>formPagamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPedidos.Designer.cs">
+      <DependentUpon>formPedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="FormProfissionais.cs">
       <SubType>Form</SubType>
@@ -105,6 +129,12 @@
     </Compile>
     <Compile Include="FormProfissionalCargo.Designer.cs">
       <DependentUpon>FormProfissionalCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formServicosPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formServicosPedidos.Designer.cs">
+      <DependentUpon>formServicosPedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="formServiço.cs">
       <SubType>Form</SubType>
@@ -138,14 +168,29 @@
     <EmbeddedResource Include="forminstrumentos.resx">
       <DependentUpon>forminstrumentos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formLocacoes.resx">
+      <DependentUpon>formLocacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLocacoesitens.resx">
+      <DependentUpon>formLocacoesitens.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formlogin.resx">
       <DependentUpon>formlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPagamentos.resx">
+      <DependentUpon>formPagamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPedidos.resx">
+      <DependentUpon>formPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfissionais.resx">
       <DependentUpon>FormProfissionais.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfissionalCargo.resx">
       <DependentUpon>FormProfissionalCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formServicosPedidos.resx">
+      <DependentUpon>formServicosPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formServiço.resx">
       <DependentUpon>formServiço.cs</DependentUpon>

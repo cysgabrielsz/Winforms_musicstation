@@ -10,20 +10,18 @@ using System.Windows.Forms;
 
 namespace Winforms_musicstation
 {
-    public partial class formServiço : Form
+    public partial class formPedidos : Form
     {
-        public formServiço()
+        public formPedidos()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Forminicial telainicial = new Forminicial();
-            telainicial.Show();
+            Forminicial forminicial = new Forminicial();
+            forminicial.Show();
             this.Close();
         }
-
-
     }
 }
