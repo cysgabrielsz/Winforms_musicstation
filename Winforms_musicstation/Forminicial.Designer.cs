@@ -256,28 +256,28 @@
             // chatsToolStripMenuItem
             // 
             this.chatsToolStripMenuItem.Name = "chatsToolStripMenuItem";
-            this.chatsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.chatsToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.chatsToolStripMenuItem.Text = "Chats";
             this.chatsToolStripMenuItem.Click += new System.EventHandler(this.chatsToolStripMenuItem_Click);
             // 
             // mensagensToolStripMenuItem1
             // 
             this.mensagensToolStripMenuItem1.Name = "mensagensToolStripMenuItem1";
-            this.mensagensToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.mensagensToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.mensagensToolStripMenuItem1.Text = "Mensagens";
             this.mensagensToolStripMenuItem1.Click += new System.EventHandler(this.mensagensToolStripMenuItem1_Click);
             // 
             // notificacoesToolStripMenuItem
             // 
             this.notificacoesToolStripMenuItem.Name = "notificacoesToolStripMenuItem";
-            this.notificacoesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.notificacoesToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.notificacoesToolStripMenuItem.Text = "Notificacoes";
             this.notificacoesToolStripMenuItem.Click += new System.EventHandler(this.notificacoesToolStripMenuItem_Click);
             // 
             // avaliacoesToolStripMenuItem
             // 
             this.avaliacoesToolStripMenuItem.Name = "avaliacoesToolStripMenuItem";
-            this.avaliacoesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.avaliacoesToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.avaliacoesToolStripMenuItem.Text = "Avaliacoes";
             this.avaliacoesToolStripMenuItem.Click += new System.EventHandler(this.avaliacoesToolStripMenuItem_Click);
             // 
@@ -286,6 +286,7 @@
             this.dASHBOARDToolStripMenuItem.Name = "dASHBOARDToolStripMenuItem";
             this.dASHBOARDToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
             this.dASHBOARDToolStripMenuItem.Text = "DASHBOARD";
+            this.dASHBOARDToolStripMenuItem.Click += new System.EventHandler(this.dASHBOARDToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -340,8 +341,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pictureBox1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Forminicial";
             this.Text = "Form1";

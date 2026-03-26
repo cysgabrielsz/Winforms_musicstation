@@ -82,6 +82,18 @@
     <Compile Include="formclientes.Designer.cs">
       <DependentUpon>formclientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="formDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDashboard.Designer.cs">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formdetalhe da empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formdetalhe da empresa.Designer.cs">
+      <DependentUpon>formdetalhe da empresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="formdetalheavaliacao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +218,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formclientes.resx">
       <DependentUpon>formclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDashboard.resx">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formdetalhe da empresa.resx">
+      <DependentUpon>formdetalhe da empresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formdetalheavaliacao.resx">
       <DependentUpon>formdetalheavaliacao.cs</DependentUpon>

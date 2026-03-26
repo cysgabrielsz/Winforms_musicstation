@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,7 @@ namespace Winforms_musicstation
 {
     public partial class Forminicial : Form
     {
+        private string connectionString = "Server=OSA0716348W11-1\\SQLEXPRESS; Integrated Security= True;";
         public Forminicial()
         {
             InitializeComponent();            
@@ -157,6 +160,17 @@ namespace Winforms_musicstation
             formAvaliações.Show();
             this.Hide();
         }
+
+
+
+        private void dASHBOARDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formDashboard formDashboard = new formDashboard();
+            formDashboard.Show();
+            this.Hide();
+        }
+
+
     }
 }
 

@@ -27,13 +27,13 @@ namespace Winforms_musicstation
             using (SqlConnection conn = new SqlConnection(connectionString)) //cria a conexão com o banco de dados
             {
                 conn.Open(); //abre conexão com o banco
-                SqlCommand cmd = new SqlCommand("USE MeuBanco00 SELECT Nome, Preco, Quantidade FROM Produtos", conn);
+                SqlCommand cmd = new SqlCommand("USE MusicStation SELECT id_usuario, nome, email, senha, CONVERT(VARCHAR,data_cadastro, 103) AS data_cadastro FROM Usuarios", conn);
                 //cria um comando sql para selecionar os usuarios da tabela
                 SqlDataReader reader = cmd.ExecuteReader();//executa o comando que retorna um leitor de dados
 
                 while (reader.Read())//percorre os resultados retornandos pela consulta
                 {
-                    dataGridView1.Rows.Add(reader["Nome"].ToString(), " | " + "R$" + reader["Preco"].ToString(), " | " + reader["Quantidade"].ToString());
+                    dataGridView1.Rows.Add(reader["id_usuario"].ToString(), " | " + "R$" + reader["nome"].ToString(), " | " + "R$" + reader["email"].ToString(), " | " + reader["senha"].ToString(), " | " + reader["data_cadastro"]);
                 }
             }
 
@@ -51,7 +51,12 @@ namespace Winforms_musicstation
 
         }
 
-
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Forminicial forminicial = new Forminicial();
+            forminicial.Show();
+            this.Close();
+        }
     }
 
 

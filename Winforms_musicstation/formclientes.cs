@@ -23,5 +23,12 @@ namespace Winforms_musicstation
             telainicial.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Forminicial forminicial = new Forminicial();
+            forminicial.Show();
+            this.Close();
+        }
     }
 }
